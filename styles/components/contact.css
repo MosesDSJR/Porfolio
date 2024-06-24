@@ -1,0 +1,82 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.contact__title {
+  font-size: var(--size-2xl);
+  color: var(--clr-slate400);
+}
+
+.contact__description {
+  max-width: 60ch;
+  font-size: var(--size-sm);
+  color: var(--clr-slate600);
+}
+
+.contact__btn {
+  font-size: var(--size-sm);
+}
+
+/* mobile */
+@media (min-width: 475px) {
+  .contact {
+    gap: 1.5rem;
+  }
+
+  .contact__title {
+    font-size: var(--size-3xl);
+  }
+
+  .contact__description {
+    font-size: var(--size-base);
+  }
+
+  .contact__btn {
+    font-size: var(--size-base);
+  }
+}
+
+/* sm devices */
+/* @media (min-width: 640px) {} */
+
+/* md tablets */
+/* @media (min-width: 768px) {} */
+
+/* lg tablets/laptops */
+@media (min-width: 1024px) {
+  .contact__title {
+    font-size: var(--size-4xl);
+  }
+
+  .contact__description {
+    font-size: var(--size-lg);
+  }
+
+  .contact__btn {
+    font-size: var(--size-lg);
+  }
+}
+
+/* xl desktop */
+@media (min-width: 1280px) {
+  .contact__title {
+    font-size: var(--size-5xl);
+  }
+
+  .contact__description {
+    font-size: var(--size-xl);
+  }
+
+  .contact__btn {
+    font-size: var(--size-xl);
+  }
+}
+
+/* 2xl screens */
+/* @media (min-width: 1536px) {} */
