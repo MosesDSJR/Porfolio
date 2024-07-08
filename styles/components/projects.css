@@ -28,6 +28,11 @@
   background: rgba(0, 0, 0, 0.6);
   align-self: normal;
   gap: 1rem;
+  transition: transform 0.15s ease;
+}
+
+.project__card:hover {
+  transform: scale(1.05);
 }
 
 .project__card-title {
